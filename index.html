@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>to do project</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="asset/style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body class="h-screen flex justify-center items-center">
+    <div class="container w-4xl">
+      <div class="header bg-orange py-4 pr-10 pl-8 text-center text-darkgray">
+        <h2 class="m-3 text-4xl">My To Do list</h2>
+        <div class="flex">
+          <input
+            type="text"
+            placeholder="What is your task for today?"
+            autocomplete="off"
+            class="outline-none w-[75%] p-3 text-base capitalize"
+          />
+          <button
+            class="w-[25%] p-3 bg-gray text-darkgray text-base cursor-pointer"
+          >
+            Add
+          </button>
+        </div>
+      </div>
+      <ul class="max-h-3xl overflow-y-auto"></ul>
+    </div>
+
+    <!-- ============= js section ================= -->
+    <script src="asset/app.js"></script>
+  </body>
+</html>
